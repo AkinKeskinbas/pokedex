@@ -1,4 +1,4 @@
-package com.akin.animesoncompose
+package com.akin.casestudy
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

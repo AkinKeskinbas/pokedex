@@ -1,4 +1,4 @@
-package com.akin.animesoncompose.navigation
+package com.akin.casestudy.navigation
 
 import androidx.navigation.NavHostController
 

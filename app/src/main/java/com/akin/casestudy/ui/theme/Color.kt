@@ -1,4 +1,4 @@
-package com.akin.animesoncompose.ui.theme
+package com.akin.casestudy.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

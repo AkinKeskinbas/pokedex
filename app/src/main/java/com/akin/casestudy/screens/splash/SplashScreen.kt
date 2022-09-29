@@ -1,4 +1,4 @@
-package com.akin.casestudy.screens
+package com.akin.casestudy.screens.splash
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

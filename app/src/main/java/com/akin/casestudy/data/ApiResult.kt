@@ -1,4 +1,4 @@
-package com.akin.animesoncompose.data
+package com.akin.casestudy.data
 
 
 sealed interface ApiResult<T : Any>

@@ -1,14 +1,14 @@
-package com.akin.animesoncompose.navigation
+package com.akin.casestudy.navigation
 
 import androidx.compose.animation.AnimatedContentScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.*
-import com.akin.animesoncompose.screens.DetailScreen
-import com.akin.animesoncompose.screens.HomeScreen
-import com.akin.animesoncompose.screens.SplashScreen
-import com.akin.animesoncompose.util.Constants.DETAILS_ARGUMENTS_KEY
-import com.akin.animesoncompose.util.Constants.EMPTY_STRING
+import com.akin.casestudy.screens.DetailScreen
+import com.akin.casestudy.screens.home.HomeScreen
+import com.akin.casestudy.screens.splash.SplashScreen
+import com.akin.casestudy.util.Constants.DETAILS_ARGUMENTS_KEY
+import com.akin.casestudy.util.Constants.EMPTY_STRING
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 
@@ -35,6 +35,7 @@ fun MainNavGraph(
 @ExperimentalAnimationApi
 private fun NavGraphBuilder.mainNavigation(
     router: Router,
+
 ) {
     composable(
         route = Screens.Splash.route,

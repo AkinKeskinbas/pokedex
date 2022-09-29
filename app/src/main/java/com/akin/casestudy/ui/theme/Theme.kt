@@ -1,4 +1,4 @@
-package com.akin.animesoncompose.ui.theme
+package com.akin.casestudy.ui.theme
 
 import android.app.Activity
 import android.os.Build

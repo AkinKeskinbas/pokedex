@@ -1,4 +1,4 @@
-package com.akin.animesoncompose
+package com.akin.casestudy
 
 import org.junit.Test
 

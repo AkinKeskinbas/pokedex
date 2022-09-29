@@ -1,4 +1,4 @@
-package com.akin.animesoncompose
+package com.akin.casestudy
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -12,18 +12,17 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.akin.animesoncompose.navigation.MainNavGraph
-import com.akin.animesoncompose.navigation.Router
-import com.akin.animesoncompose.navigation.RouterImpl
-import com.akin.animesoncompose.navigation.Screens
-import com.akin.animesoncompose.ui.theme.AnimesonComposeTheme
+import com.akin.casestudy.navigation.MainNavGraph
+import com.akin.casestudy.navigation.Router
+import com.akin.casestudy.navigation.RouterImpl
+import com.akin.casestudy.navigation.Screens
+import com.akin.casestudy.ui.theme.AnimesonComposeTheme
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     @OptIn(ExperimentalAnimationApi::class, ExperimentalMaterial3Api::class)

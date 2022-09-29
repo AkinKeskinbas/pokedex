@@ -1,4 +1,4 @@
-package com.akin.animesoncompose.data
+package com.akin.casestudy.data
 
 import retrofit2.HttpException
 import retrofit2.Response
