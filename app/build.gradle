@@ -94,5 +94,13 @@ dependencies {
     //timber
     implementation 'com.jakewharton.timber:timber:5.0.1'
 
+    //palette
+    implementation "androidx.palette:palette:1.0.0"
+
+    //pager
+    implementation "com.google.accompanist:accompanist-pager:0.26.4-beta"
+
+
+
 
 }
